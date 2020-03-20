@@ -1,0 +1,75 @@
+$color:black;
+$margin:0rem;
+$lineheight:50px;
+
+
+.title{
+    width: 2000px;
+    font-weight: bold;
+    font-size:32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px 100px 0px;
+
+}
+
+.newstitle{
+    width: 2000px;
+    font-weight: bold;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px 100px 0px;
+    border-bottom: solid $color 10px;
+}
+
+.container{
+   display:grid;
+    grid-template-columns: repeat(3,33%);
+    width:2000px;
+    grid-column-gap:15px;
+
+
+&__column--lines{
+    border-left: solid $color 10px;
+    border-top: solid $color 10px;
+    border-right: solid $color 10px;
+    border-bottom: solid $color 10px;
+    background: pink;
+}
+
+img{
+    display: flex;
+    width:640px;
+    height:640px;
+
+   
+}
+
+&__paragraph{
+    line-height: $lineheight;
+    text-align: center;
+    font-size: 25px;
+    margin: $margin;
+}
+&__paragraph3{
+    line-height: $lineheight;
+    font-size: 25px;
+    margin: $margin;
+}
+
+&__paragraph3::after{
+    content: " ------> See More On Page 10!";
+    color: $color;
+    font-weight: bold;
+    
+}
+
+
+}
+
+
+
+

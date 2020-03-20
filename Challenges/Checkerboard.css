@@ -1,0 +1,27 @@
+.checkerboard{
+    height: 500px;
+    width: 500px;
+    border:25px black solid;
+}
+.row{
+    display:flex;
+
+}
+
+.row-reverse{
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.white{
+    width: 62.5px;
+    height: 62.5px;
+    background-color: white;
+}
+
+.black{
+    width: 62.5px;
+    height: 62.5px;
+    background-color: black;
+}
+

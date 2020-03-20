@@ -1,0 +1,23 @@
+.red{
+    width: 1000px;
+    height: 38px;
+    background-color: red;
+}
+
+.white{
+    width: 1000px;
+    height: 38px;
+    background-color: white;
+}
+
+.flag{
+    height: 550px;
+    width: 1000px;
+}
+
+img{
+    width: 292px;
+    height: 291px;
+    position: absolute;
+    top: 10px;
+}
