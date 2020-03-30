@@ -7,6 +7,10 @@
     
 } 
 
+.container__product{
+    border: 3px black solid;
+    display:flex;
+}
 #navbar ul {
     display: flex;
     list-style: none;
@@ -23,7 +27,8 @@
     float:left;
     visibility: visible;
     display: block;
-    transform: translateY(15px);}
+    transform: translateY(15px);
+}
     .index__section-gamecube{
         width: 84%;
         height:390px;
@@ -35,7 +40,7 @@
     }
     
     .index__section-sega{
-        width: 84%;
+        width: %;
     height:390px;
     }
 }
@@ -98,7 +103,8 @@ body{
 .flaming-logo{
     width:70px;
     float:left;
-    transform: translateY(15px);}
+    transform: translateY(8px);
+}
 
 #navbar ul {
     display: flex;
@@ -149,11 +155,10 @@ height:390px;
 
 .container__product{
     border: 3px black solid;
-    display:flex;
 }
 .product{
     background: pink;
-    width:100%;
+    width:92%;
     border:3px black solid;
     font-size: 20px;
     font-weight: bold;
@@ -161,9 +166,6 @@ height:390px;
     text-align: center;
 }
 
-h2{
-    text-align:center;
-}
 
 p{text-align: center;
 }
@@ -200,6 +202,34 @@ a{
     align-items:center;
     border: 28px solid mistyrose;
     margin-top: 39px;
+  }
+  
+  .filter-container{
+    display: flex;
+    justify-content: space-around;
+     border: 28px solid mistyrose;
+    margin: 35px;
+    font-weight: bold;
+    letter-spacing: 4px;
+   
+}
+
+  .filter-container #filterSelect {
+    font-size: 21px;
+    font-weight: bold;
+    border: solid green 5px;
+}
+
+  .filter-container #priceSelect{
+    font-size: 21px;
+    font-weight: bold;
+    border: solid blue 5px;
+}
+.item__price {
+    display: none;
+  }
+  .item__type{
+    display: none;
   }
   
   /*Form button for contents*/
