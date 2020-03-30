@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="e-css/styles.css">
+    <title>Gameshop</title>
+</head>
+<body class="body__home">
+<header>
+    <nav id="navbar">
+        <div class="container__nav">
+            <img class="flaming-logo"
+                src="https://cdn10.bigcommerce.com/s-ksslwy/products/3211/images/8351/Blue_flame_new__88263.1582768916.1280.1280.png?c=2"
+                alt="flamingcontroller">
+        <ul>
+            <li><a href="index.html">Get Some Game</a><li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Merch</a></li>
+            <li><a class="current" href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    </nav>
+
+</header>
+<h1 class="contact__header">Are You Satisfied With Our Products!!? Contact Us!!!</h1>
+
+
+<form class = "contact__form" action="/action_page.php">
+    <label for="fullname">
+        Full Name:</label>
+    <input type="text" id="fullname" maxlength="15" required >
+
+    <label for="email">
+        Email:</label>
+    <input type="text" id="email" required maxlength="20">
+
+    <label for="phonenumber">
+        Phone Number:</label>
+    <input type="tel" id="phonenumber" pattern="[0-9]" maxlength="13" required>
+
+    <label for="comment">
+        Comment:</label>
+    <textarea id="comment" name="comment" placeholder="Leave Comment in less than 250 characters." maxlength = "250" required></textarea>
+
+    <button class="form-button" id="submitButton" type=submit>Submit</button>
+</form>
+
+<footer class="footer">
+    <!-- logo  -->
+    <img class="flaming-logo__footer"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT_1B3JUeTEJLw67rTTB692AdIKu2a8kmQdD4CLEwJA-_IFxvxg"
+        alt="flamingcontroller">
+    <p> &copy; Get Some Game 2020</p>
+
+    <!--  facebook icon link -->
+    <a href="https://www.facebook.com/GameStoresSA/" target="_blank" rel="noopener"> <img
+            src="https://cdn1.iconfinder.com/data/icons/social-networks-3/512/facebook-512.png"
+            alt="facebook logo"></a>
+    <!-- insta icon link -->
+    <a href="https://www.instagram.com/gamestheshop/?hl=en" target="_blank" rel="noopener"> <img
+            src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/instagram_circle_color-512.png"
+            alt="instagram logo"></a>
+
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="http://jigsaw.w3.org/css-validator/images/vcss"
+                    alt="Valid CSS!" />
+            </a>
+</footer>
+
+</html>
