@@ -52,7 +52,20 @@
         display: flex;
         align-items: center;
       }
-      
+      .index__section-gamecube{
+        width: 33%;
+        height:390px;
+    }
+    
+    .index__section-playstation{
+        width: 33%;
+        height:390px;
+    }
+    
+    .index__section-sega{
+        width: 33%;
+    height:390px;
+    }
     }
 
 body{
@@ -110,17 +123,17 @@ text-align: center;
 }
 .index__section-gamecube{
     width: 84%;
-    height:390px;
+    height:517px;
 }
 
 .index__section-playstation{
     width: 84%;
-    height:390px;
+    height:492px;
 }
 
 .index__section-sega{
     width: 84%;
-height:390px;
+height:400px;
 }
 
 .index__section{
