@@ -29,21 +29,8 @@
     display: block;
     transform: translateY(15px);
 }
-    .index__section-gamecube{
-        width: 84%;
-        height:390px;
-    }
-    
-    .index__section-playstation{
-        width: 84%;
-        height:390px;
-    }
-    
-    .index__section-sega{
-        width: %;
-    height:390px;
-    }
 }
+
 /*For Small Screens*/
 @media (max-width: 800px) {
     .flaming-logo {
@@ -65,20 +52,7 @@
         display: flex;
         align-items: center;
       }
-      .index__section-gamecube{
-        width: 33%;
-        height:390px;
-    }
-    
-    .index__section-playstation{
-        width: 33%;
-        height:390px;
-    }
-    
-    .index__section-sega{
-        width: 33%;
-        height:390px;
-        }
+      
     }
 
 body{
