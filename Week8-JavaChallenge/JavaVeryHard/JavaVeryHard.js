@@ -42,21 +42,21 @@ class Programmer extends Person{ // An extention to Person, with passing same me
     
 }
 
-let omar = new Programmer("naven kennedy", "Back End", 25, "Javascript");
-omar.learnLanguage("Swift");
-omar.learnLanguage("Go");
-console.log(omar);
-omar.listLanguage();
+let naven = new Programmer("naven kennedy", "Back End", 25, "Javascript");
+naven.learnLanguage("Swift");
+naven.learnLanguage("Go");
+console.log(naven);
+naven.listLanguage();
 
-let steve = new Programmer("Roger Pattinson", "Front-end", 24, "C++")
+let roger = new Programmer("Roger Pattinson", "Front-end", 24, "C++")
 console.log(steve);
-steve.listLanguage();
-steve.offerNewTask();
-steve.completeTask();
-steve.offerNewTask();
+roger.listLanguage();
+roger.offerNewTask();
+roger.completeTask();
+roger.offerNewTask();
 
-let kelly = new Programmer("Paula Martinez", "App Dev", 22, "C#");
+let paula = new Programmer("Paula Martinez", "App Dev", 22, "C#");
 
-console.log(kelly);
-kelly.learnLanguage("English");
-console.log(kelly);
+console.log(paula);
+paula.learnLanguage("English");
+console.log(paula);
