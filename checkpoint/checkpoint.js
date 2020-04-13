@@ -6,4 +6,4 @@ var me = new function (name) {
   let sayHi = (name) => {
       console.log("Hello" + name);
   }
-  sayHi("Fatima");
+  sayHi("Naven");
