@@ -1,16 +1,64 @@
 {
-  "name": "hard.js",
-  "version": "1.0.0",
-  "description": "",
-  "main": "hard.js",
-  "scripts": {
-    "start": "node index",
-    "dev": "nodemon index"
+"employees": [
+  {
+      "name": "Naven",
+      "id": 1,
+      "salary": 100000000,
+      "job": "Back End Developer"
   },
-  "author": "Naven Kennedy",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "nodemon": "^2.0.3"
-  }
+  {
+      "name": "Cody",
+      "id": 2,
+      "salary": 20000000,
+      "job": "full stack"
+  },
+  {
+      "name": "Wilson",
+      "id": 3,
+      "salary": 10000000,
+      "job": "front end developer"
+  },
+  {
+  "name": "Tom",
+  "id": 1,
+  "salary": 100000000,
+  "job": "CEO"
+},
+{
+  "name": "Mark",
+  "id": 2,
+  "salary": 20000000,
+  "job": "full stack"
+},
+{
+  "name": "Elizabeth",
+  "id": 3,
+  "salary": 10000000,
+  "job": "front end developer"
+},
+{
+  "name": "Mark",
+  "id": 1,
+  "salary": 100000000,
+  "job": "Sales"
+},
+{
+  "name": "Sam",
+  "id": 2,
+  "salary": 20000000,
+  "job": "full stack"
+},
+{
+  "name": "Keelan",
+  "id": 3,
+  "salary": 10000000,
+  "job": "front end developer"
+},
+{
+  "name": "Michelle",
+  "id": 1,
+  "salary": 100000000,
+  "job": "CEO"
+}
+]
 }
