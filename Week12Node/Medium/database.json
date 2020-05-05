@@ -1,0 +1,65 @@
+{
+    "employees" : [
+        {
+            "id": 1,
+            "name": "Mark",
+            "salary": 50000,
+            "deparment": "Marketing"
+        },
+        {
+            "id": 2,
+            "name": "CPaul",
+            "salary": "75000",
+            "deparment": "Engineer"
+        },
+        {
+            "id": 3,
+            "name": "Sarah",
+            "salary": 25000,
+            "deparment": "Farmer"
+        },
+        {
+            "id": 4,
+            "name": "Josh",
+            "salary": 50000,
+            "deparment": "Marketing"
+        },
+        {
+            "id": 5,
+            "name": "Tracy",
+            "salary": 43000,
+            "deparment": "Manager"
+        },
+        {
+            "id": 6,
+            "name": "Reggie",
+            "salary": 23000,
+            "deparment": "Cashier"
+        },
+        {
+            "id": 7,
+            "name": "Gucci Mane",
+            "salary": 526000,
+            "deparment": "Rapper"
+        },
+        {
+            "id": 8,
+            "name": "Lucy",
+            "salary": 600000,
+            "deparment": "Teacher"
+        },
+        {
+            "id": 9,
+            "name": "Malcolm",
+            "salary": 500000,
+            "deparment": "Teacher"
+        },
+        {
+            "id": 10,
+            "name": "Bill Kapri",
+            "salary": 20,
+            "deparment": "wanna be rapper"
+        }
+    ]
+}
+
