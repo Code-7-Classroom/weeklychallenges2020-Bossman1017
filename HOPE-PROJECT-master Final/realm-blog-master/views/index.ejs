@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<h2> Oppression Blog</h2>
+
+<a href="/write"><strong>Stand Together Strong</strong></a>
+
+<% for(var i=0; i<posts.length; i++) {%>
+<h3><%= posts[i].title%></h3>
+<p><%= posts[i].content%></p>
+<% } %>
+<img src = "/Images/vendetta2.jpg" alt = "faces">
+</body>
+</html>

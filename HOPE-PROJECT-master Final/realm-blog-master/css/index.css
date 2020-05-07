@@ -1,0 +1,47 @@
+body {
+    background:linear-gradient(#C7F0DB, #8BBABB, #6C7B95);
+}
+h2  {
+    font-size: 50px;
+    color: rgb(62, 62, 230);
+    text-shadow: black solid 2px;
+}
+a  {
+    background-color: rgb(62, 62, 230);
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+h3 {
+    font-size: 25px;
+}
+p {
+    font-size: 15px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+}
+img{
+    align-items: center;
+    opacity:5%;
+    border-bottom-left-radius: 71%;
+    border-bottom-right-radius: 73%;
+    height: 50%;
+    transform: translateX(414px);
+        animation: fadeIn ease 30s;
+      }
+      @keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+      }
+      @-moz-keyframes fadeIn {
+        100% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+      }
