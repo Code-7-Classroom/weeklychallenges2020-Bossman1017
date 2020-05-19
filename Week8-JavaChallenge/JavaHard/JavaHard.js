@@ -9,5 +9,5 @@ function pii(name, ssn) {
 
     }
 }
-me =pii("Naven",83734748);
+me =pii("Naven","83734748");
 console.log(me.getName());

@@ -1,25 +1,6 @@
-//Add
-function add(num1, num2) {
-    return num1 + num2;
-}
-var x = add(5, 7);
+// var x = 2
+// var n = 10
+// var pow = Math.pow(x, n);
 
-//Subtract
-function subtract(num1, num2) {
-    return num1 - num2;
-}
-var x = subtract(13, 3);
+// console.log(pow)
 
-
-//Multiply
-function multiply(num1, num2) {
-    return num1 * num2;
-}
-var x = multiply(13, 3);
-
-
-//Divide
-function divide(num1, num2) {
-    return num1 - num2;
-}
-var x = divide(5, 7);

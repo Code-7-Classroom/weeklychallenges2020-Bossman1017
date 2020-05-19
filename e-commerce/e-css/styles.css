@@ -48,15 +48,15 @@ height:400px;
 @media (min-width: 450px),(max-width: 800px){
     .index__section-gamecube{
         width: 32%;
-        height: 517px;
+        height: 410px;
     }
-    .index__section-playstation{}
+    .index__section-playstation{
         width: 32%;
-        height:492px;
+        height:430px;
     }
     .index__section-sega{
         width: 32%;
-    height:400px;
+    height:414px;
     }
     }
 
@@ -119,7 +119,7 @@ body{
 .flaming-logo{
     width:70px;
     float:left;
-    transform: translateY(8px);
+    transform: translateY(1px);
 }
 
 #navbar ul {
@@ -149,6 +149,9 @@ text-align: center;
     text-align: center;
     font-size: 26px;
     font-weight: bold;
+    border: solid black 10px;
+    margin-top: 25px;
+    margin-bottom: 11px;
 }
 
 .index__section{
@@ -170,6 +173,7 @@ text-align: center;
 
 
 p{text-align: center;
+color:blue
 }
 
 h3{
@@ -254,7 +258,7 @@ a{
     /*Margins set for contact form*/
     form input{
     margin:20px 0;
-    width: 50%;
+    width: 60%;
     height: 32px;
     border: 4px solid hotpink;
   }

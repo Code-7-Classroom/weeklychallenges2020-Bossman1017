@@ -3,17 +3,6 @@ $margin:0rem;
 $lineheight:50px;
 
 
-.title{
-    width: 2000px;
-    font-weight: bold;
-    font-size:32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 100px 0px 100px 0px;
-
-}
-
 .newstitle{
     width: 2000px;
     font-weight: bold;
@@ -24,6 +13,8 @@ $lineheight:50px;
     padding: 100px 0px 100px 0px;
     border-bottom: solid $color 10px;
 }
+
+@import"_title.scss"
 
 .container{
    display:grid;
