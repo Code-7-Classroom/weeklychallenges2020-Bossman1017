@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
 
-const person = (props) => {
-    return (
-        <div>
-    <p>I'm {props.name} and i am {props.age} years old</p>
-    <p>{props.children}</p>
-    </div>
-    )
-};
+class BasicInfo extends Component{
 
-    
-export default person;
+    render(){
+        return (
+        <div>
+            <h1>{this.props.name}</h1>
+            <p>{this.props.phone}</p>
+            <p>{this.props.dob}</p>
+            <p>{this.props.email}</p>
+        </div>
+        )
+    }
+}
+
+export default BasicInfo;
