@@ -5,7 +5,7 @@ class Person extends Component {
       <div>
         <ul>
           {this.props.person.map(info => (
-            <li>Name: {info.Name} Phone: {info.Phone} DOB: {info.DOB} </li>
+            <p>Name: {info.Name} Phone: {info.Phone} DOB: {info.DOB} </p>
           ))}
         </ul>
       </div>

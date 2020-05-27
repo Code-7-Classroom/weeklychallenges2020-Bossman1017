@@ -16,7 +16,7 @@ class App extends Component {
                 {
                     Name: "Joseph Williams",
                     Phone: "704-555-5556",
-                    DOB: "April 17, 1993",
+                    DOB: "April 17, 1993"
                 },
                 {
                     Name: "Vanessa Webb",
