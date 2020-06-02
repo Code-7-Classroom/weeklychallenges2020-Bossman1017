@@ -1,0 +1,65 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 DROP DATABASE IF EXISTS movies_db;\
+CREATE DATABASE movies_db;\
+USE movies_db;\
+CREATE TABLE movies (\
+movieID INT AUTO_INCREMENT PRIMARY KEY,\
+title VARCHAR(255),\
+release_date year,\
+rating VARCHAR(255)\
+);\
+\
+INSERT INTO movies(title,release_date,rating)\
+Values('Saw',2004,'R'),('The Matrix',1999,'R'),('Logan',2017,'R'),('Deadpool',2016,'R'),('Independence Day',1996,'PG-13'),('Toy Story',1995,'G'),('Lion King',1994,'PG'),('The Iron Giant',1999,'PG'),('The Princess and The Frog',2009,'G'),('Avengers:Endgame',2019,'PG-13');\
+\
+SELECT title, release_Date FROM movies WHERE title LIKE "%s%" ORDER BY Release_Date ASC;\
+\
+\
+ALTER TABLE movies ADD (directorFirst VARCHAR(255),	directorLast VARCHAR(255));\
+\
+UPDATE movies\
+SET directorFirst = 'James', directorLast = 'Wan' \
+WHERE movieID = 1;\
+UPDATE movies \
+SET directorFirst = 'Lana', directorLast = 'Wachowski' \
+WHERE movieID = 2;\
+UPDATE movies \
+SET directorFirst = 'James', directorLast = 'Mangold' \
+WHERE movieID = 3;\
+UPDATE movies \
+SET directorFirst = 'Tim', directorLast = 'Miller' \
+WHERE movieID = 4;\
+UPDATE movies \
+SET directorFirst = 'Roland', directorLast = 'Emmerich' \
+WHERE movieID = 5;\
+UPDATE movies \
+SET directorFirst = 'John', directorLast = 'Lassiter' \
+WHERE movieID = 6;\
+UPDATE movies\
+ SET directorFirst = 'Jon', directorLast = 'Favreau' \
+WHERE movieID = 7;\
+UPDATE movies \
+SET directorFirst = 'Brad', directorLast = 'Bird' \
+WHERE movieID = 8;\
+UPDATE movies \
+SET directorFirst = 'John', directorLast = 'Musker' \
+WHERE movieID = 9;\
+UPDATE movies \
+SET directorFirst = 'Anthony', directorLast = 'Russo' \
+WHERE movieID = 10;\
+\
+SELECT CONCAT (directorFirst ,' ' , directorLast) AS FULLNAME FROM movies;\
+\
+SELECT directorLast From movies ORDER BY directorLast DESC;\
+SELECT directorLast\
+FROM movies\
+WHERE directorLast REGEXP '^[.*[abcdefghijklmnopq].*$]' \
+AND directorLast NOT REGEXP '^[.*[rstuvwxyz].*$]'\
+LIMIT 3;\
+SELECT * FROM movies;}
